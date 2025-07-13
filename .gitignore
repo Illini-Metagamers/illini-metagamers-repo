@@ -12,6 +12,8 @@ public/media/
 public/robots.txt
 public/sitemap*.xml
 
+# dev db
+illini-metagamers.db
 
 # Playwright
 node_modules/
