@@ -43,37 +43,68 @@ export const Media: CollectionConfig = {
     staticDir: path.resolve(dirname, '../../public/media'),
     adminThumbnail: 'thumbnail',
     focalPoint: true,
+    formatOptions: {
+      format: 'webp',
+    },
     imageSizes: [
       {
         name: 'thumbnail',
         width: 300,
+        formatOptions: {
+          format: 'webp',
+        },
+        withoutEnlargement: false,
       },
       {
         name: 'square',
         width: 500,
         height: 500,
+        formatOptions: {
+          format: 'webp',
+        },
+        withoutEnlargement: false,
       },
       {
         name: 'small',
         width: 600,
+        formatOptions: {
+          format: 'webp',
+        },
+        withoutEnlargement: false,
       },
       {
         name: 'medium',
         width: 900,
+        formatOptions: {
+          format: 'webp',
+        },
+        withoutEnlargement: false,
       },
       {
         name: 'large',
         width: 1400,
+        formatOptions: {
+          format: 'webp',
+        },
+        withoutEnlargement: false,
       },
       {
         name: 'xlarge',
         width: 1920,
+        formatOptions: {
+          format: 'webp',
+        },
+        withoutEnlargement: false,
       },
       {
         name: 'og',
         width: 1200,
         height: 630,
         crop: 'center',
+        formatOptions: {
+          format: 'jpeg',
+        },
+        withoutEnlargement: false,
       },
     ],
   },
